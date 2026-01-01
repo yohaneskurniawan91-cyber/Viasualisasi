@@ -1,5 +1,5 @@
 import SwiftUI
-import Charts
+import Charts // System framework, available on iOS 16+
 
 struct ChartVisualizationView: View {
     @State private var dataPoints: [DataPoint] = DataPoint.sampleData

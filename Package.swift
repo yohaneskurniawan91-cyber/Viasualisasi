@@ -15,7 +15,10 @@ let package = Package(
     targets: [
         .target(
             name: "Viasualisasi",
-            dependencies: []),
+            dependencies: [],
+            path: "Viasualisasi",
+            exclude: ["Info.plist", "Assets.xcassets"],
+            resources: []),
         .testTarget(
             name: "VisualisasiTests",
             dependencies: ["Viasualisasi"])
